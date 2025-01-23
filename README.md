@@ -20,7 +20,7 @@ Este comando iniciará el servidor Spring Boot y el proyecto estará disponible 
 
 Configuración de la base de datos (SQLite)
 
-No es necesario realizar ninguna configuración en la base de datos, ya que se adjunta en el repositorio.
+No es necesario realizar ninguna configuración con la base de datos, ya que se adjunta en el repositorio.
 
 La base de datos SQLite está configurada en el archivo src/main/resources/application.properties. Ejemplo de configuración:
 
@@ -31,7 +31,7 @@ spring.datasource.password=contraseña
 spring.jpa.database-platform=org.hibernate.dialect.SQLiteDialect
 spring.jpa.hibernate.ddl-auto=update
 
-Este archivo conecta tu aplicación con una base de datos SQLite que se encuentra en la raíz del proyecto. Puedes cambiar la URL de la base de datos según la ubicación y el nombre que des a tu archivo de base de datos.
+Este archivo conecta tu aplicación con una base de datos SQLite que se encuentra en la raíz del proyecto. Puedes cambiar la URL de la base de datos si lo deseas, pero no es necesario, según la ubicación y el nombre que des a tu archivo de base de datos.
 
 Ejecución de pruebas unitarias
 Este proyecto utiliza JUnit para las pruebas unitarias. Para ejecutar las pruebas, usa el siguiente comando:
