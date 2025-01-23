@@ -1,4 +1,5 @@
 Proyecto Spring Boot con SQLite
+
 Este proyecto es una aplicación basada en Spring Boot utilizando SQLite como base de datos y JUnit para las pruebas unitarias.
 
 Requisitos previos
@@ -18,6 +19,9 @@ En Linux/Mac:
 Este comando iniciará el servidor Spring Boot y el proyecto estará disponible en http://localhost:8080/ (o el puerto configurado en tu archivo application.properties).
 
 Configuración de la base de datos (SQLite)
+
+No es necesario realizar ninguna configuración en la base de datos, ya que se adjunta en el repositorio.
+
 La base de datos SQLite está configurada en el archivo src/main/resources/application.properties. Ejemplo de configuración:
 
 spring.datasource.url=jdbc:sqlite:src/main/resources/db/database.db
